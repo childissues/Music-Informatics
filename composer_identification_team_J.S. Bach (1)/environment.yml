@@ -1,0 +1,16 @@
+name: miws25_bach
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - joblib
+  - matplotlib
+  - tqdm
+  - pip
+  - pip:
+    - partitura
+    - torch
